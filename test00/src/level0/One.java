@@ -32,7 +32,7 @@ public class One {
 	        }
 	        return answer;
 	    }
-	    */
+	    
 	
 		public int solution4(int num1, int num2) {
 	        int answer = 0;
@@ -40,6 +40,13 @@ public class One {
 	        answer = (int)value;
 	        return answer;
 		}
+		*/
+	
+		public int solution5(int num1, int num2) {
+        int answer = (num1 == num2) ? 1 : -1;
+        return answer;
+    }
+		
 	}
 
 
